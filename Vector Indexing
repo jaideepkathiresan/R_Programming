@@ -1,0 +1,7 @@
+print(sequence1[1])
+
+print(sequence2)
+
+print(sequence2[c(2 , 3)])
+
+print(sequence2[c(-2 , -3)])
