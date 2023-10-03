@@ -1,0 +1,9 @@
+apple=c("red" , "green" , "yellow")
+print(apple)
+class(apple)
+
+vector1 = c(1 , 2 , 3, 4)
+vector2 = c('a' , 'b' , 'c' , 'd')
+Vector_final = c(vector1 , vector2)
+print(Vector_final)
+class(Vector_final)
