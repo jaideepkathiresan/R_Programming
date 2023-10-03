@@ -1,0 +1,8 @@
+sort(sequence2)
+print(sequence2)
+
+sort(sequence2 , decreasing = TRUE)
+print(sequence2)
+
+length_of_sequence1 = length(sequence2)
+print(length_of_sequence1)
