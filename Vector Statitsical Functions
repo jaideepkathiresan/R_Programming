@@ -1,0 +1,15 @@
+m = rep(sequence2 , each = 2)
+
+print(m)
+
+print(min(m))
+
+print(max(m))
+
+print(sum(m))
+
+print(mean(m))
+
+print(sd(m))
+
+print(which.min(m))
