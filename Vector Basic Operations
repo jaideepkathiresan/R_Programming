@@ -1,0 +1,14 @@
+result = sequence1 + sequence2
+print(result)
+
+result = sequence1 - sequence2
+print(result)
+
+result = sequence1 * sequence2
+print(result)
+
+result = sequence1 / sequence2
+print(result)
+
+result = sequence1 %% sequence2
+print(result)
