@@ -1,0 +1,15 @@
+sequence1 = vector("numeric" , length=10)
+print(sequence1)
+
+sequence2 = seq(2 , 4 , by=0.4)
+print(sequence2)
+
+sequence2 = seq(2 , 12 , length.out=10)
+print(sequence2)
+
+numbers = 1:10
+print(numbers)
+
+combineddata = c(Vector_final , sequence1 , sequence2 , numbers)
+print(combineddata)
+class(combineddata)
