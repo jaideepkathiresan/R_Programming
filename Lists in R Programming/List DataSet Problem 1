@@ -1,0 +1,11 @@
+student = list("22MIA1196", "Jaideep Vishnu Kathiresan", c(85, 90, 95))
+
+print(student[[2]])
+
+print(c(student[[1]], student[[3]]))
+
+print(student[[3]][1])
+
+student[[3]][length(student[[3]])] <- student[[3]][length(student[[3]])] + 5
+
+print(student)

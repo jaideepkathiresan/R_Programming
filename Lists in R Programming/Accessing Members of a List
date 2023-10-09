@@ -1,0 +1,6 @@
+vector1 = c(1 , 2 ,3)
+vector2 = c(T , F)
+list1 = list(vector1 , vector2)
+print(list1)
+print(list1[[1]][2])
+print(list1[[2]][2])

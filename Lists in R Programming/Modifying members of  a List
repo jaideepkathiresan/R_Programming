@@ -1,0 +1,7 @@
+list2 =list(a = 1 , let = letters[1 : 8] , mt  =matrix(1 : 6 , nrow = 2 ))
+cat("List before modifying \n")
+print(list2)
+
+list2$a =5 
+cat("List after modifying \n")
+print(list2)

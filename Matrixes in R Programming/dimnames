@@ -1,0 +1,7 @@
+C = matrix( 1:20 , 5 , 2 , byrow=TRUE)
+print(C)
+
+RowNames = c("D" , "I" , "A" , "J")
+ColNames = c("E" , "E"  , "P" )
+Matrix1 = matrix (1:20 , length(RowNames) , length(ColNames) , dimnames=list(RowNames , ColNames))
+print(Matrix1)

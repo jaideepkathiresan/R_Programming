@@ -1,0 +1,8 @@
+Matrix1 = matrix (1:20 , length(RowNames) , length(ColNames) , dimnames=list(RowNames , ColNames))
+print(Matrix1)
+
+print(rowSums(Matrix1))
+print(colSums(Matrix1))
+print(colMeans( Matrix1))
+print(rowMeans(Matrix1))
+print(mean(Matrix1))

@@ -1,0 +1,33 @@
+vector_heights = c(190, 195, 200, 205, 210, 215, 220, 225, 230, 235, 240, 245)
+
+player_heights = matrix(vector_heights , nrow=4, ncol=3 ,byrow = T)
+
+height_3_2 = player_heights[3,2]
+
+heights_row_2 = player_heights[2,]
+
+heights_col_3 = player_heights[,3]
+
+heights_col_1_3 = player_heights[,c(1,3)]
+
+transpose = t(player_heights)
+
+new_players = c(250,255,260,265)
+updated_player_heights = cbind(player_heights,new_players)
+
+row_means = rowMeans(updated_player_heights)
+col_means = colMeans(updated_player_heights)
+
+mean_row_2 = row_means[2]
+mean_col_2 = col_means[2]
+
+print(height_3_2)
+print(heights_row_2)
+print(heights_col_3)
+print(heights_col_1_3)
+print(transpose)
+print(player_heights)
+print(row_means)
+print(col_means)
+print(mean_row_2)
+print(mean_col_2)
