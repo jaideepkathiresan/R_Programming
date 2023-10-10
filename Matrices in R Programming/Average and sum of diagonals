@@ -1,0 +1,13 @@
+matrix1 = matrix(c(1, 2, 3, 4, 5, 6), nrow = 2)
+matrix2 = matrix(c(7, 8, 9, 10, 11, 12), nrow = 2)
+
+addition = matrix1 + matrix2
+subtraction = matrix1 - matrix2
+
+diag_sum = sum(diag(addition))
+diag_mean = mean(diag(addition))
+
+paste("Addition of the Matrices is " , addition)
+paste("Difference of the Matrices is " , subtraction)
+paste("Sum of diagonals ", diag_sum)
+paste("Mean of diagonals ", diag_mean)

@@ -1,0 +1,8 @@
+ID = c(1, 2, 3)
+Name = c("ramu", "raju", "ravi")
+Marks = c(50, 40, 25)
+df = data.frame(ID, Name, Marks)
+print(df)
+print(df[2,3])
+print(df$Marks[2])
+print(df$Marks[c(1,2)])

@@ -1,0 +1,16 @@
+employees = list(
+  employee1 = list(id = 1, name = "Jaideep", pay = 50000),
+  employee2 = list(id = 2, name = "Akshita", pay = 60000),
+  employee3 = list(id = 3, name = "Mogana Velan", pay = 70000),
+  employee4 = list(id = 4, name = "Thiru Chelvan", pay = 80000),
+  employee5 = list(id = 5, name = "Kathiresan", pay = 90000)
+)
+
+basic_pay = c()
+
+for (i in 1:length(employees)) 
+{
+  basic_pay[i] = employees[[i]]$pay * 0.16
+}
+
+print(basic_pay)
