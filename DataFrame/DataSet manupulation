@@ -1,0 +1,24 @@
+data = data.frame(
+  name = c("Surya", "Malavika", "Jaideep", "Mogana", "Velan"),
+  event1 = c(9, 0, 10, 8, 0),
+  event2 = c(0, 7, 0, 5, 3),
+  event3 = c(5, 0, 8, 0, 6),
+  event4 = c(0, 6, 4, 7, 0)
+)
+print(data)
+subset(data, name %in% c("Malavika", "Jaideep"))
+data$event4
+data$total_score = rowSums(data[, 2:5])
+print(data)
+max_score = max(data$total_score)
+max_score_name = data$name[data$total_score == max_score]
+paste("The participant with the maximum score is ", max_score_name)
+avg_scores = data.frame(name = "avg_score",
+                        event1 = mean(data$event1),
+                        event2 = mean(data$event2),
+                        event3 = mean(data$event3),
+                        event4 = mean(data$event4),
+                        total_score = mean(data$total_score))
+data = rbind(data, avg_scores)
+print(data)
+write.csv(data, "/home/ex5/scores.csv", row.names = F)
